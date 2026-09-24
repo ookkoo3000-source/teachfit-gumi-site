@@ -40,6 +40,15 @@
   --band-top:#E6F4FD; --band-bottom:#CBE8F8; --band-hi:#1480C4; --band-soft:#FFFFFF; --band-ink:#8EC3E4; --band-deep:#5BA4D3; --band-sun:#FFC23D;
   --panel:#E4F3FC; --panel-2:#D0EAF8; --on-accent:#3A2A00; --banner-mark:#0B5F96;
 }
+
+/* 밝은 풍경 테마(engine/bright.css) 색 — 구미: 하늘색 + 노란 해 */
+:root{
+  --b-hero-bg:#EAF6FD; --b-fade:rgba(246,250,253,.96); --b-fade-mid:rgba(246,250,253,.82);
+  --b-ink:#14232F; --b-lead:#3F5566; --b-brand:#1480C4; --b-brand-strong:#0B5F96;
+  --b-shadow:rgba(20,128,196,.45); --b-line:#E1EEF6; --b-line-strong:#9CCBE8; --b-section:#EDF6FC;
+  --b-ph-art:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 110'%3E%3Ccircle cx='430' cy='34' r='20' fill='%23FFD46A'/%3E%3Cpath d='M0 110 C 90 90 150 70 220 64 L 290 34 L 318 22 L 346 30 L 372 16 L 404 40 C 460 70 520 80 600 76 V110 Z' fill='%23C6E2F4'/%3E%3Cpath d='M0 110 C 120 96 220 84 320 86 C 420 88 500 72 600 80 V110 Z' fill='%23A6D0EB'/%3E%3Cpath d='M0 104 H600 V110 H0 Z' fill='%23CDEBD9'/%3E%3C/svg%3E");
+  --b-ph-ground:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40 V24 C 360 12 720 28 1080 18 C 1260 13 1380 20 1440 18 V40 Z' fill='%23A6D0EB'/%3E%3Cpath d='M0 34 H1440 V40 H0 Z' fill='%23CDEBD9'/%3E%3C/svg%3E");
+}
 *{box-sizing:border-box;}
 html{background:var(--bg);}
 body{
@@ -354,40 +363,45 @@ mark.free{background:linear-gradient(transparent 55%, var(--accent-soft) 55%); c
 .post-hero{text-align:center;}
 .post-hero h1{margin-inline:auto;}
 .post-hero .hero-cta{justify-content:center;}
-/* 구미: 밝은 하늘 풍경 일러스트 톤 — 금오산·낙동강 그림 히어로, 떠 있는 흰 카드, 연하늘 섹션 교차 */
+
+/* =================================================================
+   밝은 풍경 테마 (region.py BRIGHT = True 인 지역만 포함) — 구미 디자인 일반화
+   색은 theme.css의 --b-* 변수로 지역마다 다르게
+   ================================================================= */
 body{overflow-x:clip;}
 
-/* ── 메인 히어로: 화면 가로 전체 풍경 그림 + 왼쪽 글자 (다크모드에서도 그림이 밝으니 글자색 고정) */
-.hero{position:relative; isolation:isolate; overflow:hidden; background:#EAF6FD;
+/* 메인 히어로: 화면 가로 전체 풍경 그림 + 왼쪽 글자 (그림이 밝아서 다크모드에서도 글자색 고정) */
+.hero{position:relative; isolation:isolate; overflow:hidden; background:var(--b-hero-bg);
   margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); padding-block:72px 240px;}
 .hero .grid{grid-template-columns:1fr;}
 .hero .grid > div:first-child{max-width:560px;}
 .hero .grid > div:last-child{position:absolute; inset:0; z-index:-2;}
 .hero-land{width:100%; height:100%; display:block;}
 .hero::before{content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
-  background:linear-gradient(90deg, rgba(246,250,253,.96) 0%, rgba(246,250,253,.82) 32%, rgba(246,250,253,0) 60%);}
-.hero h1{color:#14232F;}
-.hero h1 em{color:#1480C4;}
-.hero p.lead{color:#3F5566;}
-.hero .eyebrow{color:#0B5F96; background:#fff; padding:6px 12px 6px 10px; border-radius:999px; box-shadow:0 4px 14px -8px rgba(20,128,196,.5);}
-.hero .trust-row{color:#4F6272;}
-.hero .cta-btn{background:#1480C4;}
-.hero .cta-ghost{background:#fff; border-color:#fff; color:#14324A; box-shadow:0 6px 18px -10px rgba(20,128,196,.5);}
+  background:linear-gradient(90deg, var(--b-fade) 0%, var(--b-fade-mid) 32%, transparent 60%);}
+.hero h1{color:var(--b-ink);}
+.hero h1 em{color:var(--b-brand);}
+.hero p.lead{color:var(--b-lead);}
+.hero .eyebrow{color:var(--b-brand-strong); background:#fff; padding:6px 12px 6px 10px; border-radius:999px; box-shadow:0 4px 14px -8px var(--b-shadow);}
+.hero .trust-row{color:var(--b-lead);}
+.hero .cta-btn{background:var(--b-brand); color:#fff !important;}
+.hero .cta-ghost{background:#fff; border-color:#fff; color:var(--b-ink); box-shadow:0 6px 18px -10px var(--b-shadow);}
 .eyebrow::before{width:7px; height:7px; border-radius:50%; background:var(--accent);}
 
-/* ── 통계: 풍경 아래쪽에 걸쳐 떠 있는 흰 카드 */
-.stats{position:relative; z-index:2; background:#fff; border:1px solid #E1EEF6; margin-top:-72px;
-  box-shadow:0 24px 50px -28px rgba(20,128,196,.45);}
-.stats .num{color:#1480C4; font-family:'Space Mono',monospace; letter-spacing:-.02em;}
-.stats .lbl{color:#4F6272;}
-.stats .wrap > div + div{border-left:1px solid #E6F0F6;}
+/* 통계: 풍경 아래쪽에 걸쳐 떠 있는 흰 카드 */
+.stats{position:relative; z-index:2; background:#fff; border:1px solid var(--b-line); margin-top:-72px;
+  box-shadow:0 24px 50px -28px var(--b-shadow);}
+.stats::before{display:none;}
+.stats .num{color:var(--b-brand); font-family:'Space Mono',monospace; letter-spacing:-.02em;}
+.stats .lbl{color:var(--b-lead);}
+.stats .wrap > div + div{border-left:1px solid var(--b-line);}
 
-/* ── 섹션: 연하늘 배경 가로 전체로 교차 */
-#services,#process,#regions{margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); background:var(--surface-2);}
+/* 섹션: 연한 배경 가로 전체로 교차 */
+#services,#process,#regions{margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); background:var(--b-section);}
 
-/* ── 카드: 테두리 대신 부드러운 그림자, 호버 시 살짝 뜸 + 이모지 아이콘 */
-.svc-card,.t-card,.region-card,.article-card{border-color:transparent; box-shadow:0 12px 32px -20px rgba(20,128,196,.4); transition:transform .15s, box-shadow .15s;}
-.svc-card:hover,.t-card:hover,.region-card:hover,.article-card:hover{transform:translateY(-3px); box-shadow:0 18px 40px -20px rgba(20,128,196,.5);}
+/* 카드: 테두리 대신 부드러운 그림자, 호버 시 살짝 뜸 + 이모지 아이콘 */
+.svc-card,.t-card,.region-card,.article-card{border-color:transparent; box-shadow:0 12px 32px -20px var(--b-shadow); transition:transform .15s, box-shadow .15s;}
+.svc-card:hover,.t-card:hover,.region-card:hover,.article-card:hover{transform:translateY(-3px); box-shadow:0 18px 40px -20px var(--b-shadow);}
 .svc-card::before{font-size:30px; line-height:1;}
 #grades .svc-card:nth-child(1)::before{content:"🎒";}
 #grades .svc-card:nth-child(2)::before{content:"📘";}
@@ -395,41 +409,37 @@ body{overflow-x:clip;}
 #services .svc-card:nth-child(1)::before{content:"💻";}
 #services .svc-card:nth-child(2)::before{content:"🎬";}
 #services .svc-card:nth-child(3)::before{content:"📍";}
-.svc-card .tag{background:var(--primary-soft); color:var(--primary-strong);}
-.trust-item .ico{border-radius:12px; background:var(--primary-soft); color:var(--primary);}
+.svc-card .tag{background:var(--primary-soft); color:var(--b-brand-strong);}
+.trust-item .ico{border-radius:12px; background:var(--primary-soft); color:var(--b-brand);}
 
-/* ── 하위 페이지 상단: 연하늘 배경 + 오른쪽 아래 금오산 능선 실루엣 */
+/* 하위 페이지 상단: 연한 배경 + 오른쪽 아래 지역 실루엣(--b-ph-art) */
 .page-hero{position:relative; margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); padding-bottom:70px; margin-bottom:12px;
-  background:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 110'%3E%3Ccircle cx='430' cy='34' r='20' fill='%23FFD46A'/%3E%3Cpath d='M0 110 C 90 90 150 70 220 64 L 290 34 L 318 22 L 346 30 L 372 16 L 404 40 C 460 70 520 80 600 76 V110 Z' fill='%23C6E2F4'/%3E%3Cpath d='M0 110 C 120 96 220 84 320 86 C 420 88 500 72 600 80 V110 Z' fill='%23A6D0EB'/%3E%3Cpath d='M0 104 H600 V110 H0 Z' fill='%23CDEBD9'/%3E%3C/svg%3E") right bottom / auto 110px no-repeat,
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40 V24 C 360 12 720 28 1080 18 C 1260 13 1380 20 1440 18 V40 Z' fill='%23A6D0EB'/%3E%3Cpath d='M0 34 H1440 V40 H0 Z' fill='%23CDEBD9'/%3E%3C/svg%3E") left bottom / 100% 40px no-repeat,
-    linear-gradient(180deg, #EAF6FD, #F6FAFD);}
-.page-hero h1{color:#14232F;}
-.page-hero p{color:#3F5566;}
-.page-hero .eyebrow,.page-hero .breadcrumb{color:#0B5F96;}
+  background:var(--b-ph-art) right bottom / auto 110px no-repeat, var(--b-ph-ground) left bottom / 100% 40px no-repeat,
+    linear-gradient(180deg, var(--b-hero-bg), var(--bg));}
+.page-hero h1{color:var(--b-ink);}
+.page-hero p{color:var(--b-lead);}
+.page-hero .eyebrow,.breadcrumb{color:var(--b-brand-strong);}
 
-/* ── 밝은 패널(상담박스·큰 CTA·블로그 배너) 위 글자: 엔진의 흰 글자 되돌리기 */
-.topbar a.phone{color:var(--primary-strong);}
-.apply-wrap{border:1px solid #CFE7F5;}
+/* 밝은 패널(상단바·상담박스·큰 CTA·블로그 배너) 위 글자 */
+.topbar a.phone{color:var(--b-brand-strong);}
+.apply-wrap{border:1px solid var(--b-line);}
+.apply-wrap::before{display:none;}
 .apply-wrap h2,.cta-big,.cta-big h2{color:var(--panel-ink);}
 .apply-wrap p,.cta-big p{color:var(--on-dark);}
-.apply-wrap .cta-ghost{color:var(--panel-ink) !important; border-color:#9CCBE8 !important; background:#fff;}
-.cta-sub{background:#fff; color:var(--panel-ink) !important; border-color:#9CCBE8;}
-.cta-big{box-shadow:0 18px 40px -26px rgba(20,128,196,.45);}
-.intro-banner{border:1px solid #CFE7F5; box-shadow:none;}
-.intro-banner mark.free{color:var(--primary-strong);}
-.form-card{box-shadow:0 10px 30px -18px rgba(20,128,196,.35);}
+.apply-wrap .cta-ghost{color:var(--panel-ink) !important; border-color:var(--b-line-strong) !important; background:#fff;}
+.cta-sub{background:#fff; color:var(--panel-ink) !important; border-color:var(--b-line-strong);}
+.cta-big{box-shadow:0 18px 40px -26px var(--b-shadow);}
+.intro-banner{border:1px solid var(--b-line); box-shadow:none;}
+.ib-tag{background:#fff; color:var(--b-brand-strong);}
+.intro-banner mark.free{color:var(--b-brand-strong);}
+.form-card{box-shadow:0 10px 30px -18px var(--b-shadow);}
 
-/* ── 블로그: 소제목 번호 파란 원 + 노란 테두리, 카드 왼쪽 파란선 */
-.pbox{border-left:3px solid var(--primary);}
-.pbox h2:before{background:var(--primary); box-shadow:0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent);}
-mark.free{color:var(--primary-strong);}
-:root{--tip-bg:#EAF5FC; --tip-line:#BFE0F3; --tip-ink:#0B5F96; --card-bg:#F0F6FA; --check:#1480C4;}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8CCBF2; --card-bg:#18232D; --check:#2B8FD0;}}
-:root[data-theme="dark"]{--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8CCBF2; --card-bg:#18232D; --check:#2B8FD0;}
-.cta-main{box-shadow:0 10px 24px -10px rgba(183,128,10,.55);}
+/* 블로그: 소제목 번호 원 + 포인트색 테두리, 카드 왼쪽 선 */
+.pbox{border-left:3px solid var(--b-brand);}
+.pbox h2:before{background:var(--b-brand); box-shadow:0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent);}
+mark.free{color:var(--b-brand-strong);}
 
-/* ── 모바일: 글자 아래에 풍경 그림, 통계 카드는 그림 위로 살짝 */
+/* 모바일: 글자 아래에 풍경 그림, 통계 카드는 그림 위로 살짝 */
 @media (max-width:900px){
   .hero{padding-block:36px 0;}
   .hero::before{display:none;}
@@ -438,3 +448,11 @@ mark.free{color:var(--primary-strong);}
   .stats .wrap > div + div{border-left:0;}
   .page-hero{background-size:auto 70px, 100% 30px, auto; padding-bottom:56px;}
 }
+/* 구미: 공통 밝은 테마(engine/bright.css) 위에 구미만의 차이 */
+.stats .lbl{color:#4F6272;}
+.apply-wrap,.intro-banner{border-color:#CFE7F5;}
+.ib-tag{background:rgba(255,255,255,.12); color:var(--on-dark);}
+:root{--tip-bg:#EAF5FC; --tip-line:#BFE0F3; --tip-ink:#0B5F96; --card-bg:#F0F6FA; --check:#1480C4;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8CCBF2; --card-bg:#18232D; --check:#2B8FD0;}}
+:root[data-theme="dark"]{--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8CCBF2; --card-bg:#18232D; --check:#2B8FD0;}
+.cta-main{box-shadow:0 10px 24px -10px rgba(183,128,10,.55);}
