@@ -1,48 +1,45 @@
 :root{
-  --bg:#F4F6F8;
+  --bg:#F6FAFD;
   --surface:#FFFFFF;
-  --surface-2:#E9EDF1;
-  --ink:#121A22;
-  --muted:#51606E;
-  --muted-2:#7A8795;
-  --primary:#1F2B37;
-  --primary-strong:#111A23;
-  --primary-soft:#E0E6EC;
-  --accent:#1CB5D9;
-  --accent-strong:#0A7C9C;
-  --accent-soft:#D6F2FA;
-  --line:#D9E0E6;
-  --shadow: 0 18px 40px -22px rgba(17,26,35,.35);
-  --radius-lg: 18px;
+  --surface-2:#EDF6FC;
+  --ink:#14232F;
+  --muted:#4F6272;
+  --muted-2:#7B8D9B;
+  --primary:#1480C4;
+  --primary-strong:#0B5F96;
+  --primary-soft:#DDEFFA;
+  --accent:#FFC23D;
+  --accent-strong:#B7800A;
+  --accent-soft:#FFF0C7;
+  --line:#D8E6EF;
+  --shadow: 0 18px 40px -24px rgba(20,128,196,.35);
+  --radius-lg: 20px;
   --radius-md: 12px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#0D1319; --surface:#151D25; --surface-2:#1B252F; --ink:#E8EDF2;
-    --muted:#A2AFBC; --muted-2:#7D8B99; --primary:#2E7E9E; --primary-strong:#BFD9E6;
-    --primary-soft:#1D2934; --accent:#35C6E8; --accent-strong:#6FD8F0; --accent-soft:#0F3340;
-    --line:#26323E; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
+    --bg:#0F171E; --surface:#16212B; --surface-2:#1A2632; --ink:#E8EFF5;
+    --muted:#A3B3C1; --muted-2:#7F909E; --primary:#2B8FD0; --primary-strong:#8CCBF2;
+    --primary-soft:#173246; --accent:#FFC23D; --accent-strong:#FFD470; --accent-soft:#3A2F12;
+    --line:#26343F; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0D1319; --surface:#151D25; --surface-2:#1B252F; --ink:#E8EDF2;
-  --muted:#A2AFBC; --muted-2:#7D8B99; --primary:#2E7E9E; --primary-strong:#BFD9E6;
-  --primary-soft:#1D2934; --accent:#35C6E8; --accent-strong:#6FD8F0; --accent-soft:#0F3340;
-  --line:#26323E; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
+  --bg:#0F171E; --surface:#16212B; --surface-2:#1A2632; --ink:#E8EFF5;
+  --muted:#A3B3C1; --muted-2:#7F909E; --primary:#2B8FD0; --primary-strong:#8CCBF2;
+  --primary-soft:#173246; --accent:#FFC23D; --accent-strong:#FFD470; --accent-soft:#3A2F12;
+  --line:#26343F; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
 }
 
-/* 지역 톤: 진한 배경 위 글자, 블로그 상단 배너, 최상단 밴드 */
+/* 구미는 패널(상단바·통계·상담박스·CTA·배너)을 밝은 하늘색으로, 글자는 진하게 — 다크모드에서도 밝게 유지 */
 :root{
-  --topbar-ink:#DCE3EA; --on-dark-ink:#E6ECF1; --on-dark:#DCE3EA; --on-dark-muted:#9DAAB8;
-  --cta-big-text:#DCE3EA; --banner-bg:#141D26; --banner-glow:#1d4a5a; --banner-text:#DCE3EA; --banner-apply:#0A7C9C;
-  --pbox-shadow:rgba(17,26,35,.3);
-  --band-top:#1A2530; --band-bottom:#2A3947; --band-hi:#1CB5D9; --band-soft:#D6F2FA; --band-ink:#3C4E5F; --band-deep:#101820; --band-sun:#F2B544;
+  --panel-ink:#14324A; --panel-muted:#4D6A80;
+  --topbar-ink:#14324A; --on-dark-ink:#14324A; --on-dark:#2A4256; --on-dark-muted:#4D6A80;
+  --cta-big-text:#2A4256; --banner-bg:#E4F3FC; --banner-glow:#FFF3CF; --banner-text:#2A4256; --banner-apply:#1480C4;
+  --pbox-shadow:rgba(20,128,196,.25);
+  --band-top:#E6F4FD; --band-bottom:#CBE8F8; --band-hi:#1480C4; --band-soft:#FFFFFF; --band-ink:#8EC3E4; --band-deep:#5BA4D3; --band-sun:#FFC23D;
+  --panel:#E4F3FC; --panel-2:#D0EAF8; --on-accent:#3A2A00; --banner-mark:#0B5F96;
 }
-
-/* 진한 패널(상단바·통계띠·상담박스·CTA) — 다크모드에서도 진하게 유지해서 글자 대비 확보 */
-:root{ --panel:#18222C; --panel-2:#243240; --on-accent:#0B1A22; --banner-mark:#8BE3F5; }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --panel:#18232E; --panel-2:#22313F; --on-accent:#0B1A22; } }
-:root[data-theme="dark"]{ --panel:#18232E; --panel-2:#22313F; --on-accent:#0B1A22; }
 *{box-sizing:border-box;}
 html{background:var(--bg);}
 body{
@@ -357,40 +354,87 @@ mark.free{background:linear-gradient(transparent 55%, var(--accent-soft) 55%); c
 .post-hero{text-align:center;}
 .post-hero h1{margin-inline:auto;}
 .post-hero .hero-cta{justify-content:center;}
-/* 구미: 전자산업 도시 — 블루프린트 격자·회로 노드·칩 모양 번호로 깔끔한 테크 톤 */
+/* 구미: 밝은 하늘 풍경 일러스트 톤 — 금오산·낙동강 그림 히어로, 떠 있는 흰 카드, 연하늘 섹션 교차 */
+body{overflow-x:clip;}
 
-/* 진한 패널 위 강조색은 밝은 시안으로(대비 확보) */
-.topbar a.phone{color:var(--accent);}
-.stats .num{color:var(--accent); font-family:'Space Mono',monospace; letter-spacing:-.02em;}
-
-/* 히어로: 옅은 도트 그리드 배경 + 제목 강조를 시안으로 */
-.hero{position:relative; isolation:isolate;}
+/* ── 메인 히어로: 화면 가로 전체 풍경 그림 + 왼쪽 글자 (다크모드에서도 그림이 밝으니 글자색 고정) */
+.hero{position:relative; isolation:isolate; overflow:hidden; background:#EAF6FD;
+  margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); padding-block:72px 240px;}
+.hero .grid{grid-template-columns:1fr;}
+.hero .grid > div:first-child{max-width:560px;}
+.hero .grid > div:last-child{position:absolute; inset:0; z-index:-2;}
+.hero-land{width:100%; height:100%; display:block;}
 .hero::before{content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
-  background-image:radial-gradient(var(--line) 1.1px, transparent 1.3px); background-size:22px 22px;
-  -webkit-mask-image:linear-gradient(180deg,#000 55%,transparent); mask-image:linear-gradient(180deg,#000 55%,transparent);}
-.hero h1 em{color:var(--accent-strong);}
-.eyebrow::before{width:7px; height:7px; border-radius:2px; box-shadow:10px 0 0 -2px var(--accent);}
+  background:linear-gradient(90deg, rgba(246,250,253,.96) 0%, rgba(246,250,253,.82) 32%, rgba(246,250,253,0) 60%);}
+.hero h1{color:#14232F;}
+.hero h1 em{color:#1480C4;}
+.hero p.lead{color:#3F5566;}
+.hero .eyebrow{color:#0B5F96; background:#fff; padding:6px 12px 6px 10px; border-radius:999px; box-shadow:0 4px 14px -8px rgba(20,128,196,.5);}
+.hero .trust-row{color:#4F6272;}
+.hero .cta-btn{background:#1480C4;}
+.hero .cta-ghost{background:#fff; border-color:#fff; color:#14324A; box-shadow:0 6px 18px -10px rgba(20,128,196,.5);}
+.eyebrow::before{width:7px; height:7px; border-radius:50%; background:var(--accent);}
 
-/* 통계띠·상담박스·큰 CTA: 블루프린트 격자 + 모서리 회로 노드 */
-.stats,.apply-wrap,.cta-big{position:relative; overflow:hidden;}
-.stats::before,.apply-wrap::before,.cta-big::before{content:""; position:absolute; inset:0; pointer-events:none; opacity:.09;
-  background-image:linear-gradient(var(--accent-soft) 1px, transparent 1px), linear-gradient(90deg, var(--accent-soft) 1px, transparent 1px);
-  background-size:28px 28px;}
-.stats::after,.apply-wrap::after,.cta-big::after{content:""; position:absolute; top:14px; right:14px; width:46px; height:46px; pointer-events:none; opacity:.55;
-  border-top:1.5px solid var(--accent); border-right:1.5px solid var(--accent); border-top-right-radius:10px;
-  background:radial-gradient(circle at 0 0, var(--accent) 2.5px, transparent 3px) no-repeat, radial-gradient(circle at 100% 100%, var(--accent) 2.5px, transparent 3px) no-repeat;}
-.stats .wrap,.apply-wrap > *,.cta-big > *{position:relative;}
+/* ── 통계: 풍경 아래쪽에 걸쳐 떠 있는 흰 카드 */
+.stats{position:relative; z-index:2; background:#fff; border:1px solid #E1EEF6; margin-top:-72px;
+  box-shadow:0 24px 50px -28px rgba(20,128,196,.45);}
+.stats .num{color:#1480C4; font-family:'Space Mono',monospace; letter-spacing:-.02em;}
+.stats .lbl{color:#4F6272;}
+.stats .wrap > div + div{border-left:1px solid #E6F0F6;}
 
-/* 카드: 각진 느낌 줄이고 호버 시 시안 테두리 */
-.svc-card,.t-card,.region-card,.article-card{transition:border-color .15s, transform .15s;}
-.svc-card:hover,.t-card:hover,.region-card:hover,.article-card:hover{border-color:var(--accent); transform:translateY(-2px);}
-.svc-card .tag{background:var(--accent-soft); color:var(--accent-strong);}
-.trust-item .ico{border-radius:8px;}
+/* ── 섹션: 연하늘 배경 가로 전체로 교차 */
+#services,#process,#regions{margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); background:var(--surface-2);}
 
-/* 블로그: 소제목 번호를 반도체 칩 모양(각진 사각 + 시안 테두리), 카드 왼쪽 회로선 */
-.pbox{border-left:3px solid var(--accent);}
-.pbox h2:before{border-radius:6px; background:var(--primary); box-shadow:0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent); font-family:'Space Mono',monospace; font-size:14px;}
-:root{--tip-bg:#EAF6FA; --tip-line:#B8E2EE; --tip-ink:#0A5A72; --card-bg:#EEF2F5; --check:#0A7C9C;}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--tip-bg:#10232B; --tip-line:#1E4655; --tip-ink:#8BDDF0; --card-bg:#172029; --check:#35C6E8;}}
-:root[data-theme="dark"]{--tip-bg:#10232B; --tip-line:#1E4655; --tip-ink:#8BDDF0; --card-bg:#172029; --check:#35C6E8;}
-.cta-main{box-shadow:0 10px 24px -10px rgba(28,181,217,.6);}
+/* ── 카드: 테두리 대신 부드러운 그림자, 호버 시 살짝 뜸 + 이모지 아이콘 */
+.svc-card,.t-card,.region-card,.article-card{border-color:transparent; box-shadow:0 12px 32px -20px rgba(20,128,196,.4); transition:transform .15s, box-shadow .15s;}
+.svc-card:hover,.t-card:hover,.region-card:hover,.article-card:hover{transform:translateY(-3px); box-shadow:0 18px 40px -20px rgba(20,128,196,.5);}
+.svc-card::before{font-size:30px; line-height:1;}
+#grades .svc-card:nth-child(1)::before{content:"🎒";}
+#grades .svc-card:nth-child(2)::before{content:"📘";}
+#grades .svc-card:nth-child(3)::before{content:"🎓";}
+#services .svc-card:nth-child(1)::before{content:"💻";}
+#services .svc-card:nth-child(2)::before{content:"🎬";}
+#services .svc-card:nth-child(3)::before{content:"📍";}
+.svc-card .tag{background:var(--primary-soft); color:var(--primary-strong);}
+.trust-item .ico{border-radius:12px; background:var(--primary-soft); color:var(--primary);}
+
+/* ── 하위 페이지 상단: 연하늘 배경 + 오른쪽 아래 금오산 능선 실루엣 */
+.page-hero{position:relative; margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); padding-bottom:70px; margin-bottom:12px;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 110'%3E%3Ccircle cx='430' cy='34' r='20' fill='%23FFD46A'/%3E%3Cpath d='M0 110 C 90 90 150 70 220 64 L 290 34 L 318 22 L 346 30 L 372 16 L 404 40 C 460 70 520 80 600 76 V110 Z' fill='%23C6E2F4'/%3E%3Cpath d='M0 110 C 120 96 220 84 320 86 C 420 88 500 72 600 80 V110 Z' fill='%23A6D0EB'/%3E%3Cpath d='M0 104 H600 V110 H0 Z' fill='%23CDEBD9'/%3E%3C/svg%3E") right bottom / auto 110px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40 V24 C 360 12 720 28 1080 18 C 1260 13 1380 20 1440 18 V40 Z' fill='%23A6D0EB'/%3E%3Cpath d='M0 34 H1440 V40 H0 Z' fill='%23CDEBD9'/%3E%3C/svg%3E") left bottom / 100% 40px no-repeat,
+    linear-gradient(180deg, #EAF6FD, #F6FAFD);}
+.page-hero h1{color:#14232F;}
+.page-hero p{color:#3F5566;}
+.page-hero .eyebrow,.page-hero .breadcrumb{color:#0B5F96;}
+
+/* ── 밝은 패널(상담박스·큰 CTA·블로그 배너) 위 글자: 엔진의 흰 글자 되돌리기 */
+.topbar a.phone{color:var(--primary-strong);}
+.apply-wrap{border:1px solid #CFE7F5;}
+.apply-wrap h2,.cta-big,.cta-big h2{color:var(--panel-ink);}
+.apply-wrap p,.cta-big p{color:var(--on-dark);}
+.apply-wrap .cta-ghost{color:var(--panel-ink) !important; border-color:#9CCBE8 !important; background:#fff;}
+.cta-sub{background:#fff; color:var(--panel-ink) !important; border-color:#9CCBE8;}
+.cta-big{box-shadow:0 18px 40px -26px rgba(20,128,196,.45);}
+.intro-banner{border:1px solid #CFE7F5; box-shadow:none;}
+.intro-banner mark.free{color:var(--primary-strong);}
+.form-card{box-shadow:0 10px 30px -18px rgba(20,128,196,.35);}
+
+/* ── 블로그: 소제목 번호 파란 원 + 노란 테두리, 카드 왼쪽 파란선 */
+.pbox{border-left:3px solid var(--primary);}
+.pbox h2:before{background:var(--primary); box-shadow:0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent);}
+mark.free{color:var(--primary-strong);}
+:root{--tip-bg:#EAF5FC; --tip-line:#BFE0F3; --tip-ink:#0B5F96; --card-bg:#F0F6FA; --check:#1480C4;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8CCBF2; --card-bg:#18232D; --check:#2B8FD0;}}
+:root[data-theme="dark"]{--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8CCBF2; --card-bg:#18232D; --check:#2B8FD0;}
+.cta-main{box-shadow:0 10px 24px -10px rgba(183,128,10,.55);}
+
+/* ── 모바일: 글자 아래에 풍경 그림, 통계 카드는 그림 위로 살짝 */
+@media (max-width:900px){
+  .hero{padding-block:36px 0;}
+  .hero::before{display:none;}
+  .hero .grid > div:last-child{position:relative; inset:auto; z-index:0; height:230px; margin-inline:calc(50% - 50vw); margin-top:8px;}
+  .stats{margin-top:-40px;}
+  .stats .wrap > div + div{border-left:0;}
+  .page-hero{background-size:auto 70px, 100% 30px, auto; padding-bottom:56px;}
+}
