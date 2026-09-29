@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 28 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 29 Sep 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>구미고등학교 영어과외, 빈칸추론 유형 공략</title>
+    <link>https://gumi.slovrest.com/blog/gumi-hs-yeongeo-binkan.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-hs-yeongeo-binkan.html</guid>
+    <description>모의고사 영어에서 빈칸추론 문제만 나오면 시간을 쓰고도 틀리는 구미고등학교 학생을 위해 빈칸추론 접근 순서와 선택지 판단법을 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미중학교 수학과외, 연립방정식 풀이와 활용 완성</title>
+    <link>https://gumi.slovrest.com/blog/gumi-ms-suhak-yeollip.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-ms-suhak-yeollip.html</guid>
+    <description>연립방정식에서 가감법과 대입법을 언제 써야 할지 헷갈리고 활용 문제에서 막히는 구미중학교 학생을 위해 풀이 선택법과 활용 공략을 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미사곡초등학교 영어과외, 영어책 읽기 시작하기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sagok-es-yeongeo-riding.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sagok-es-yeongeo-riding.html</guid>
+    <description>파닉스는 뗐는데 영어책 읽기로 넘어가지 못하는 구미사곡초등학교 학생을 위해 수준에 맞는 책 고르기부터 읽기 습관 만들기까지 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미전자공업고등학교 국어과외, 문해력과 보고서 쓰기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-electronic-hs-gugeo-munhaeryeok.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-electronic-hs-gugeo-munhaeryeok.html</guid>
+    <description>교과서와 기술 자료를 읽어도 핵심이 잘 잡히지 않는 구미전자공업고등학교 학생을 위해 문해력을 키우는 읽기 방법과 실습 보고서 쓰는 법을 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미인덕중학교 국어과외, 논설문 수행평가 잘 쓰는 법</title>
+    <link>https://gumi.slovrest.com/blog/gumi-indeok-ms-gugeo-nonseolmun.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-indeok-ms-gugeo-nonseolmun.html</guid>
+    <description>논설문 수행평가에서 주장과 근거를 어떻게 써야 할지 막막한 구미인덕중학교 학생을 위해 논설문 구성법과 근거 쓰기, 고쳐쓰기 요령을 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>구미여자상업고등학교 영어과외, 교과서 본문부터 탄탄하게</title>
     <link>https://gumi.slovrest.com/blog/gumi-girls-commerce-hs-yeongeo-bonmun.html</link>
