@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 29 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>경구고등학교 수학과외, 집합과 명제 기초 다지기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-gyeonggu-hs-suhak-jiphap.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-gyeonggu-hs-suhak-jiphap.html</guid>
+    <description>집합 기호와 명제의 역, 대우, 필요조건과 충분조건이 헷갈리는 경구고등학교 학생을 위해 집합과 명제 단원을 개념부터 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미제일고등학교 국어과외, 현대소설 읽는 법</title>
+    <link>https://gumi.slovrest.com/blog/gumi-jeil-hs-gugeo-hyeondaesoseol.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-jeil-hs-gugeo-hyeondaesoseol.html</guid>
+    <description>현대소설 지문이 길어서 인물 관계를 놓치고 서술상 특징 문제에서 자주 틀리는 구미제일고등학교 학생을 위해 현대소설 읽는 법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>도개중학교 영어과외, 관계대명사 한 번에 정리</title>
+    <link>https://gumi.slovrest.com/blog/gumi-dogae-ms-yeongeo-gwangye.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-dogae-ms-yeongeo-gwangye.html</guid>
+    <description>who와 which, that의 쓰임이 헷갈리고 관계대명사가 들어간 긴 문장 해석이 어려운 도개중학교 학생을 위해 관계대명사를 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미신당초등학교 국어과외, 띄어쓰기와 문장부호 바르게</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sindang-es-gugeo-ttuieosseugi.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sindang-es-gugeo-ttuieosseugi.html</guid>
+    <description>글을 쓰면 띄어쓰기가 뒤죽박죽이고 문장부호를 빠뜨리는 구미신당초등학교 학생을 위해 띄어쓰기와 문장부호를 쉽게 익히는 방법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>금오중학교 수학과외, 이차함수 그래프 확실하게</title>
+    <link>https://gumi.slovrest.com/blog/gumi-geumo-ms-suhak-ichahamsu.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-geumo-ms-suhak-ichahamsu.html</guid>
+    <description>이차함수 그래프의 꼭짓점과 평행이동이 헷갈리고 표준형 변환에서 막히는 금오중학교 학생을 위해 이차함수 단원을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>구미고등학교 영어과외, 빈칸추론 유형 공략</title>
     <link>https://gumi.slovrest.com/blog/gumi-hs-yeongeo-binkan.html</link>

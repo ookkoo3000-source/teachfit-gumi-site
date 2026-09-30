@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>경구고등학교 수학과외, 집합과 명제 기초 다지기 | 티치핏구미</title>
+<meta name="description" content="집합 기호와 명제의 역, 대우, 필요조건과 충분조건이 헷갈리는 경구고등학교 학생을 위해 집합과 명제 단원을 개념부터 정리했어요.">
+<link rel="canonical" href="https://gumi.slovrest.com/blog/gumi-gyeonggu-hs-suhak-jiphap.html">
+<link rel="alternate" type="application/rss+xml" title="티치핏구미 블로그" href="https://gumi.slovrest.com/rss.xml">
+<meta name="naver-site-verification" content="14a8451ad8d5bf26b50f3d07a965e7d682473e9c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css?v=02916f5f0c">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="티치핏구미">
+<meta property="og:title" content="경구고등학교 수학과외, 집합과 명제 기초 다지기 | 티치핏구미">
+<meta property="og:description" content="집합 기호와 명제의 역, 대우, 필요조건과 충분조건이 헷갈리는 경구고등학교 학생을 위해 집합과 명제 단원을 개념부터 정리했어요.">
+<meta property="og:url" content="https://gumi.slovrest.com/blog/gumi-gyeonggu-hs-suhak-jiphap.html">
+<meta property="og:image" content="https://gumi.slovrest.com/blog/img/gumi-gyeonggu-hs-suhak-jiphap.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gumi.slovrest.com/blog/img/gumi-gyeonggu-hs-suhak-jiphap.jpg">
+</head>
+<body>
+<div class="band band-gumi" aria-hidden="true">
+<svg class="band-bg" viewBox="0 0 800 56" preserveAspectRatio="none">
+  <defs><linearGradient id="gumiBandBg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" style="stop-color:var(--band-top)"/><stop offset="100%" style="stop-color:var(--band-bottom)"/></linearGradient></defs>
+  <rect x="0" y="0" width="800" height="56" fill="url(#gumiBandBg)"/>
+  <g fill="none" stroke="var(--band-soft)" stroke-width="1" opacity=".22">
+    <path d="M0 14 H96 L108 26 H230 L242 14 H372 L384 26 H520 L532 14 H660 L672 26 H800"/>
+    <path d="M0 42 H60 L72 32 H180 L192 42 H300 L312 32 H440 L452 42 H590 L602 32 H720 L732 42 H800"/>
+  </g>
+  <g fill="none" stroke="var(--band-hi)" stroke-width="1.4" opacity=".7">
+    <path d="M150 26 V36 H168"/><path d="M420 14 V6 H446"/><path d="M620 32 V46 H644"/>
+  </g>
+  <g fill="var(--band-hi)">
+    <circle cx="108" cy="26" r="2.2"/><circle cx="242" cy="14" r="2.2"/><circle cx="384" cy="26" r="2.2"/>
+    <circle cx="532" cy="14" r="2.2"/><circle cx="72" cy="32" r="2.2"/><circle cx="312" cy="32" r="2.2"/>
+    <circle cx="602" cy="32" r="2.2"/><circle cx="168" cy="36" r="1.8"/><circle cx="446" cy="6" r="1.8"/><circle cx="644" cy="46" r="1.8"/>
+  </g>
+</svg>
+<svg class="band-motif" viewBox="0 0 150 56" preserveAspectRatio="xMaxYMax meet">
+  <circle cx="98" cy="20" r="8" fill="var(--band-sun)"/>
+  <path d="M0 56 L22 40 L34 44 L52 26 L62 32 L74 22 L90 36 L106 30 L124 42 L150 36 V56 Z" fill="var(--band-ink)"/>
+  <path d="M0 56 L28 46 L46 50 L70 40 L96 48 L120 44 L150 50 V56 Z" fill="var(--band-deep)"/>
+</svg>
+</div>
+<div class="topbar">
+  <div class="wrap">
+    <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
+    <a class="phone" href="tel:01031315305">📞 010-3131-5305 (09:00–21:00)</a>
+  </div>
+</div>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="../index.html"><span class="mark">TF</span>티치핏구미</a>
+    <div class="navwrap">
+      <nav class="main">
+        <a href="../index.html">홈</a>
+        <a href="../teachers.html">선생님</a>
+        <a href="../regions.html">구미 학교별 과외</a>
+        <a href="../blog.html" aria-current="page">블로그</a>
+      </nav>
+      <a class="cta-btn" href="../apply.html">무료 상담 신청</a>
+      <button class="menu-btn" aria-label="메뉴">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav-wrap">
+    <nav class="mobile-nav">
+      <a href="../index.html">홈</a>
+      <a href="../teachers.html">선생님</a>
+      <a href="../regions.html">구미 학교별 과외</a>
+      <a href="../blog.html" aria-current="page">블로그</a>
+      <a href="../apply.html">무료 상담 신청</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<nav class="breadcrumb"><a href="../blog.html">블로그</a> / 고등 수학</nav>
+<section class="page-hero post-hero">
+  <span class="eyebrow">2026-09-30 · 고등 수학</span>
+  <h1>경구고등학교 수학과외, 집합과 명제 기초 다지기</h1>
+  <img class="post-cover" src="img/gumi-gyeonggu-hs-suhak-jiphap.webp" width="720" height="720" alt="경구고등학교 수학과외 1:1 화상과외 안내" loading="eager">
+  <div class="hero-cta"><a class="cta-main" href="../apply.html">30분 무료체험 신청하기 →</a><span>상담·체험 모두 무료</span></div>
+</section>
+<section>
+  <article class="prose blog-prose">
+    <div class="intro-banner">
+  <span class="ib-tag">무료 상담 · 무료 체험</span>
+  <p>학생 학습 상태 진단과 학교 시험 분석을 함께 안내드려요.<br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요.</p>
+  <div class="ib-btns">
+    <a class="ib-kakao" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담 <i>↗</i></a>
+    <a class="ib-apply" href="../apply.html">무료체험 신청 <i>✨</i></a>
+  </div>
+</div><div class="summary-box"><strong>이 글 한눈에 보기</strong><ul><li>경구고등학교 학생이 집합과 명제를 어려워하는 이유</li><li>집합의 기본과 연산</li><li>명제와 조건</li><li>역과 대우</li><li>필요조건과 충분조건</li><li><b><mark class="free">30분 무료체험수업</mark></b>으로 먼저 확인해보실 수 있어요.</li></ul></div>
+<p>경구고등학교 1학년 학생들이 공통수학에서 만나는 집합과 명제 단원은 계산보다 논리가 중심이 되는 단원이에요. 그동안 수식을 계산하는 수학에 익숙했던 학생들은 집합의 기호, 명제의 참과 거짓, 역과 대우, 필요조건과 충분조건 같은 개념을 처음 접하면서 낯설어하는 경우가 많아요.</p><p>특히 필요조건과 충분조건은 문장을 조금만 바꿔도 헷갈리고, 절대부등식의 증명은 무엇을 써야 할지 몰라 막막하게 느껴지기도 해요. 집합과 명제는 수학의 언어와 논리를 배우는 단원이라서, 이후 함수와 모든 증명 문제를 이해하는 기초가 돼요.</p><p>개념을 정확히 이해하고 기호와 문장을 연결하는 연습을 하면 집합과 명제는 오히려 실수 없이 점수를 받을 수 있는 단원이에요. 이 글에서는 경구고등학교 학생이 이 단원을 어려워하는 이유, 집합의 기본과 연산, 명제와 조건, 역과 대우, 필요조건과 충분조건, 그리고 1:1 화상 수학 수업 활용법까지 차례대로 정리해 드릴게요.</p>
+<div class="pbox"><h2>경구고등학교 학생이 집합과 명제를 어려워하는 이유</h2>
+<p>집합과 명제를 어려워하는 첫 번째 이유는 기호에 대한 낯섦이에요. 원소와 집합의 관계를 나타내는 기호, 부분집합 기호, 합집합과 교집합, 여집합과 차집합 기호가 한꺼번에 등장하면서 어떤 기호가 무엇을 뜻하는지 헷갈리는 경우가 많아요.</p>
+<p>두 번째 이유는 원소와 집합의 관계와 집합과 집합의 관계를 혼동하는 거예요. 원소는 속한다는 기호를, 집합끼리는 포함된다는 기호를 쓰는데, 이를 섞어 쓰면 틀린 답이 돼요.</p>
+<p>세 번째 이유는 명제의 참과 거짓을 판단하는 기준이 불분명한 거예요. 명제가 거짓임을 보이려면 반례 하나만 찾으면 된다는 점을 모르고, 막연히 판단하는 경우가 많아요.</p>
+<p>네 번째 이유는 역과 대우를 헷갈리는 거예요. 가정과 결론을 바꾸는 것과 부정까지 하는 것의 차이를 정확히 구분하지 못하면 명제 문제를 풀기 어려워요.</p>
+<p>다섯 번째 이유는 필요조건과 충분조건의 방향을 헷갈리는 거예요. 어느 쪽이 필요조건이고 어느 쪽이 충분조건인지 문장만 보고 판단하려다 보니 자주 틀려요.</p>
+<p>여섯 번째로, 증명 문제에 대한 부담도 있어요. 절대부등식이나 귀류법 증명은 풀이 과정을 논리적으로 써야 해서 처음에는 무엇부터 써야 할지 막막하게 느껴져요.</p>
+<p>이런 원인은 개념을 정확히 이해하고 그림과 표로 정리하는 연습을 하면 충분히 해결할 수 있어요.</p>
+<p>최근 시험지나 문제집에서 틀린 문제를 다시 풀어보면서 기호를 몰랐는지, 개념을 헷갈렸는지, 증명 과정을 못 썼는지 나눠 보세요.</p>
+<p>원인을 알고 공부하면 같은 시간을 써도 훨씬 효과적으로 실력을 올릴 수 있어요.</p>
+<p>아래에서 집합의 기본과 연산부터 차근차근 살펴볼게요.</p>
+<p>논리의 기초를 다지면 고등 수학 전체가 훨씬 명확하게 보이기 시작해요.</p>
+</div><div class="pbox"><h2>집합의 기본과 연산</h2>
+<p>집합은 어떤 조건에 의하여 대상을 분명하게 정할 수 있는 모임이에요. 키가 큰 학생들의 모임은 기준이 분명하지 않아서 집합이 아니지만, 10보다 작은 자연수의 모임은 집합이에요.</p>
+<p>집합을 이루는 대상 하나하나를 원소라고 해요. 원소가 집합에 속하는지를 나타낼 때는 속한다는 기호를 쓰고, 속하지 않을 때는 그 기호에 빗금을 그은 기호를 써요.</p>
+<p>집합을 나타내는 방법에는 원소를 직접 나열하는 원소나열법과 원소의 조건을 제시하는 조건제시법이 있어요. 벤 다이어그램으로 그림을 그려 나타내기도 해요.</p>
+<p>집합 A의 모든 원소가 집합 B에 속하면 A는 B의 부분집합이에요. 공집합은 모든 집합의 부분집합이고, 모든 집합은 자기 자신의 부분집합이라는 점을 기억하세요.</p>
+<p>원소가 n개인 집합의 부분집합의 개수는 2의 n제곱이에요. 특정 원소를 반드시 포함하거나 포함하지 않는 부분집합의 개수를 구하는 문제도 자주 출제돼요.</p>
+<p>집합의 연산에는 합집합, 교집합, 여집합, 차집합이 있어요. 합집합은 두 집합 중 어느 한쪽에라도 속하는 원소의 집합이고, 교집합은 두 집합 모두에 속하는 원소의 집합이에요.</p>
+<p>여집합은 전체집합에서 주어진 집합에 속하지 않는 원소의 집합이고, 차집합은 A에는 속하지만 B에는 속하지 않는 원소의 집합이에요.</p>
+<p>집합의 연산 법칙에는 교환법칙, 결합법칙, 분배법칙, 드모르간의 법칙이 있어요. 드모르간의 법칙은 합집합의 여집합은 여집합의 교집합이라는 법칙으로, 시험에 자주 출제돼요.</p>
+<p>집합의 연산 문제는 벤 다이어그램을 그리면 쉽게 풀 수 있어요. 복잡한 식이 나오면 벤 다이어그램에 색칠해 보며 확인하세요.</p>
+<p>원소의 개수를 구하는 문제는 합집합의 원소의 개수 공식을 이용하세요. 두 집합의 원소의 개수를 더한 뒤 교집합의 원소의 개수를 빼면 돼요.</p>
+<div class="callout"><strong>핵심 정리</strong>집합의 기본을 확실히 익히면 명제 단원에서 진리집합을 이용할 때도 훨씬 수월해요.</div>
+</div><div class="pbox"><h2>명제와 조건</h2>
+<p>명제는 참인지 거짓인지를 분명하게 판별할 수 있는 문장이나 식이에요. 2는 짝수이다는 참인 명제이고, 3은 짝수이다는 거짓인 명제예요. 수학은 재미있다처럼 판단 기준이 분명하지 않은 문장은 명제가 아니에요.</p>
+<p>조건은 변수의 값에 따라 참과 거짓이 달라지는 문장이나 식이에요. x는 3보다 크다는 x의 값에 따라 참이 되기도 하고 거짓이 되기도 해요.</p>
+<p>조건을 참이 되게 하는 모든 원소의 집합을 진리집합이라고 해요. 진리집합은 명제와 집합을 연결하는 중요한 개념이에요.</p>
+<p>명제의 부정은 원래 명제와 참과 거짓이 반대인 명제예요. 모든과 어떤을 포함하는 명제의 부정에서는 모든은 어떤으로, 어떤은 모든으로 바뀐다는 점에 주의하세요.</p>
+<p>그리고와 또는의 부정도 중요해요. p이고 q의 부정은 p가 아니거나 q가 아니다이고, p 또는 q의 부정은 p가 아니고 q도 아니다예요. 이는 드모르간의 법칙과 같은 원리예요.</p>
+<p>p이면 q이다 꼴의 명제에서 p를 가정, q를 결론이라고 해요. 이 명제가 참인지는 진리집합으로 판단할 수 있어요. p의 진리집합이 q의 진리집합의 부분집합이면 명제는 참이에요.</p>
+<p>명제가 거짓임을 보이려면 가정은 만족하지만 결론은 만족하지 않는 예, 즉 반례를 하나 찾으면 돼요. 반례 찾기는 명제의 참과 거짓을 판단하는 가장 강력한 방법이에요.</p>
+<p>진리집합을 수직선이나 벤 다이어그램으로 나타내면 명제의 참과 거짓을 눈으로 확인할 수 있어요. 부등식 조건은 수직선에 나타내는 습관을 들이세요.</p>
+<p>명제 문제를 풀 때는 먼저 가정과 결론을 분명히 구분하고, 각각의 진리집합을 구하는 순서로 접근하세요.</p>
+<p>교과서의 예제를 풀며 진리집합과 명제의 참과 거짓을 연결하는 연습을 충분히 하세요.</p>
+<p>명제와 진리집합의 관계를 이해하면 이후의 역과 대우, 필요충분조건이 자연스럽게 연결돼요.</p>
+</div><div class="mid-cta"><strong>우리 아이에게 맞는지 궁금하시다면</strong><br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요. <a class="cta-btn" href="../apply.html">무료체험 신청하기 →</a></div><div class="pbox"><h2>역과 대우</h2>
+<p>명제 p이면 q이다에서 가정과 결론을 서로 바꾼 명제 q이면 p이다를 역이라고 해요. 원래 명제가 참이라도 역은 참일 수도 있고 거짓일 수도 있어요.</p>
+<p>예를 들어 x가 2이면 x의 제곱은 4이다는 참이지만, 역인 x의 제곱이 4이면 x는 2이다는 거짓이에요. x가 마이너스 2일 때도 x의 제곱은 4이기 때문이에요.</p>
+<p>명제 p이면 q이다에서 가정과 결론을 서로 바꾸고 각각을 부정한 명제 q가 아니면 p가 아니다를 대우라고 해요.</p>
+<p>대우의 가장 중요한 성질은 원래 명제와 참과 거짓이 항상 같다는 거예요. 원래 명제가 참이면 대우도 참이고, 원래 명제가 거짓이면 대우도 거짓이에요.</p>
+<p>이 성질은 진리집합으로 이해할 수 있어요. p의 진리집합이 q의 진리집합의 부분집합이면, q의 여집합은 p의 여집합의 부분집합이 되기 때문이에요.</p>
+<p>대우의 성질은 증명에서 자주 쓰여요. 원래 명제를 직접 증명하기 어려울 때는 대우를 증명하면 원래 명제도 참이라는 것이 증명돼요.</p>
+<p>귀류법은 결론을 부정했을 때 모순이 생긴다는 것을 보여서 원래 명제가 참임을 증명하는 방법이에요. 루트2가 무리수임을 증명하는 것이 대표적인 예예요.</p>
+<p>역과 대우를 헷갈리지 않으려면 표로 정리하세요. 원래 명제, 역, 대우를 가정과 결론, 부정 여부로 나누어 정리하면 한눈에 구분할 수 있어요.</p>
+<p>역과 대우의 참과 거짓을 묻는 문제는 진리집합을 그려서 판단하면 실수가 줄어들어요.</p>
+<p>증명 문제는 교과서의 증명 과정을 따라 써보며 논리의 흐름을 익히세요.</p>
+<div class="callout"><strong>핵심 정리</strong>역과 대우를 확실히 구분하면 명제 단원의 핵심을 잡은 셈이에요.</div>
+</div><div class="pbox"><h2>필요조건과 충분조건</h2>
+<p>필요조건과 충분조건은 명제 단원에서 가장 헷갈리는 개념이에요. 하지만 진리집합으로 생각하면 명확하게 구분할 수 있어요.</p>
+<p>명제 p이면 q이다가 참일 때, p는 q이기 위한 충분조건이라고 하고, q는 p이기 위한 필요조건이라고 해요.</p>
+<p>진리집합으로 보면, p의 진리집합이 q의 진리집합에 포함될 때 작은 쪽인 p가 충분조건이고, 큰 쪽인 q가 필요조건이에요. 작은 집합은 충분조건, 큰 집합은 필요조건이라고 기억하면 헷갈리지 않아요.</p>
+<p>예를 들어 x가 2이다는 x의 제곱이 4이다이기 위한 충분조건이에요. x가 2이면 x의 제곱은 반드시 4가 되니까 충분하다는 뜻이에요. 반대로 x의 제곱이 4이다는 x가 2이다이기 위한 필요조건이에요.</p>
+<p>p이면 q이고, q이면 p이면 p는 q이기 위한 필요충분조건이에요. 이때 두 조건의 진리집합은 서로 같아요.</p>
+<p>필요조건과 충분조건 문제는 먼저 각 조건의 진리집합을 구하고, 두 집합의 포함 관계를 확인하는 순서로 풀어요. 부등식 조건은 수직선에 그려서 비교하세요.</p>
+<p>조건이 필요조건이 되도록 하는 상수의 범위를 구하는 문제도 자주 출제돼요. 진리집합의 포함 관계를 수직선에 나타낸 뒤 끝점의 위치를 비교하면 범위를 구할 수 있어요.</p>
+<p>끝점에 등호가 포함되는지는 꼭 확인하세요. 등호 하나 차이로 답이 달라지는 경우가 많아서 끝점을 대입해 확인하는 습관이 필요해요.</p>
+<p>문장만 보고 판단하지 말고 반드시 진리집합의 포함 관계로 확인하는 습관을 들이세요.</p>
+<p>절대부등식 단원에서는 산술평균과 기하평균의 관계를 이용한 최솟값 문제가 자주 나와요. 등호가 성립하는 조건까지 함께 확인하세요.</p>
+<p>필요조건과 충분조건을 진리집합으로 이해하면 이 단원의 가장 어려운 부분을 넘어선 셈이에요.</p>
+</div><div class="pbox"><h2>1:1 화상 수학 수업으로 집합과 명제 잡기</h2>
+<p>집합과 명제는 학생이 개념을 어떻게 이해하고 있는지 확인해 주는 것이 가장 효과적이에요. 1:1 수업에서는 선생님이 학생의 판단 과정을 직접 보면서 헷갈리는 개념을 바로잡아 줄 수 있어요.</p>
+<p>화상 수업에서는 화면 공유와 필기 도구를 이용해 벤 다이어그램과 수직선을 직접 그리며 설명해요. 진리집합의 포함 관계를 눈으로 확인하면서 역과 대우, 필요충분조건을 정리할 수 있어요.</p>
+<p>경구고등학교 학생이라면 학교 진도와 시험 일정에 맞춰 수업을 구성할 수 있어요. 시험 범위와 학교 프린트를 기준으로 증명 서술형까지 함께 대비해요.</p>
+<p>이동 시간이 없어서 방과 후와 야간자율학습 전후 시간을 효율적으로 쓸 수 있고, 수업은 녹화되어 복습할 때 다시 볼 수 있어요.</p>
+<p>티치핏구미에서는 상담할 때 학년, 최근 수학 성적, 어려워하는 단원을 먼저 여쭤봐요. 학생의 수준에 맞춰 개념 보충과 문제 풀이 비중을 정해 계획을 세워 드려요.</p>
+<p>집합과 명제 이후에는 함수와 그래프까지 이어서 학습할 수 있어서, 고1 공통수학 전체를 체계적으로 준비할 수 있어요.</p>
+<p>수업 후에는 배운 개념과 문제, 과제를 정리해 드려서 다음 수업 전까지 스스로 복습할 수 있어요.</p>
+<p>집합과 명제가 고민이시라면 <mark class="free">30분 무료체험수업</mark>으로 먼저 수업 방식을 확인해 보세요. 최근 시험지나 문제집을 준비해 오시면 약점 분석부터 함께 해볼 수 있어요.</p>
+<p>상담과 체험은 모두 무료예요. 수학의 논리를 이해하면 이후의 모든 단원이 훨씬 명확해질 거예요.</p>
+<p>구미 지역에서 학원을 오가는 시간이 부담스러운 학생도 집에서 바로 수업을 받을 수 있어서, 그 시간을 문제 풀이에 쓸 수 있어요.</p>
+<p>논리적으로 생각하는 힘은 수학뿐 아니라 모든 과목에서 큰 도움이 돼요.</p>
+<p><strong>Q. 집합과 명제 단원만 집중해서 수업할 수 있나요?</strong><br>
+네, 학생이 어려워하는 단원에 맞춰 기호와 개념부터 증명 서술형까지 집중적으로 수업할 수 있어요.</p>
+<p><strong>Q. 필요조건과 충분조건이 계속 헷갈려요.</strong><br>
+진리집합을 수직선과 벤 다이어그램으로 그려 포함 관계로 판단하는 방법으로 확실히 구분하도록 도와 드려요.</p>
+<p><strong>Q. 증명 문제도 연습할 수 있나요?</strong><br>
+네, 대우와 귀류법, 절대부등식 증명 과정을 단계별로 함께 써보며 서술형 답안 작성법까지 연습해요.</p>
+</div>
+  </article>
+</section>
+<section>
+  <div class="cta-big">
+  <div class="cta-big-text">
+    <span class="cta-badge">무료</span>
+    <h2>30분 무료체험수업 먼저 받아보세요</h2>
+    <p>이름과 연락처만 남기시면 24시간 이내에 담당자가 연락드려요. 체험 후 마음에 들 때만 결정하세요.</p>
+  </div>
+  <div class="cta-big-btns">
+    <a class="cta-main" href="../apply.html">무료체험 신청하기 →</a>
+    <a class="cta-sub" href="tel:01031315305">전화 010-3131-5305</a>
+    <a class="cta-sub" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담</a>
+  </div>
+</div>
+</section>
+<p style="margin-top:14px;"><a href="../blog.html">← 블로그 목록으로</a></p>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="../index.html" style="margin-bottom:10px;"><span class="mark">TF</span>티치핏구미</a>
+      <div class="fnav">
+        <a href="../services.html">화상과외 소개</a><a href="../process.html">매칭 방식</a><a href="../teachers.html">선생님</a><a href="../regions.html">구미 학교별 과외</a><a href="../blog.html">블로그</a>
+      </div>
+      <p class="disclaimer">전화 010-3131-5305 · 운영시간 09:00–21:00 · 상담 및 매칭 신청은 무료이며, 실제 수업 진행 여부와 비용은 상담 후 안내해 드립니다. 사업자 정보는 확정 후 별도 고지 예정입니다.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js?v=6af2d58710"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
+<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:01031315305">📞 전화상담</a>
+  <a class="msc-apply" href="../apply.html">무료 상담 신청</a>
+</div>
+<div class="q-modal" id="qModal" aria-hidden="true">
+  <form class="quick" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[티치핏구미] 팝업 상담 신청">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://gumi.slovrest.com/thanks.html">
+    <input type="hidden" name="신청경로" value="팝업">
+    <input type="hidden" name="과목" class="q-in-sub">
+    <input type="hidden" name="학년" class="q-in-grade">
+    <button type="button" class="q-close" aria-label="닫기">✕</button>
+    <div class="q-step q-s1 on">
+      <span class="q-badge">30분 무료체험수업</span>
+      <div class="q-title">어떤 과목이 고민이세요?<small>과목만 고르시면 구미 학교 진도에 맞는 선생님을 찾아 연락드려요</small></div>
+      <div class="q-tiles"><button type="button" data-s="수학과외" data-h="빠진 단원부터 찾아 채워요"><b>📐</b>수학과외<i>빠진 단원부터 찾아 채워요</i></button><button type="button" data-s="영어과외" data-h="단어·문법·서술형까지"><b>🔤</b>영어과외<i>단어·문법·서술형까지</i></button><button type="button" data-s="국어과외" data-h="교과서 지문·문법·독해"><b>📖</b>국어과외<i>교과서 지문·문법·독해</i></button><button type="button" data-s="초등 전과목" data-h="기초 학습 습관부터"><b>✏️</b>초등 전과목<i>기초 학습 습관부터</i></button><button type="button" data-s="과학·사회" data-h="개념 정리와 서술형 대비"><b>🔬</b>과학·사회<i>개념 정리와 서술형 대비</i></button><button type="button" data-s="자기주도학습" data-h="공부 계획과 습관 만들기"><b>🧭</b>자기주도학습<i>공부 계획과 습관 만들기</i></button></div>
+      <div class="q-alt"><a href="tel:01031315305">📞 010-3131-5305</a><a href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카톡 상담</a></div>
+    </div>
+    <div class="q-step q-s2">
+      <button type="button" class="q-back">← 다시 고르기</button>
+      <div class="q-chosen"></div><div class="q-hint"></div>
+      <span class="q-lbl">학년</span>
+      <div class="q-chips"><button type="button">초1~3</button><button type="button">초4~6</button><button type="button">중1</button><button type="button">중2</button><button type="button">중3</button><button type="button">고1</button><button type="button">고2</button><button type="button">고3</button></div>
+      <span class="q-lbl">연락처</span>
+      <div class="q-row2"><input type="text" name="학생이름" placeholder="학생 이름 *" required><input type="tel" name="연락처" placeholder="연락처 *" required></div>
+      <input type="text" name="학교" placeholder="재학 중인 학교 (선택)">
+      <button type="submit" class="q-submit">무료체험 신청하기</button>
+      <p class="q-note">상담·체험 모두 무료 · 24시간 이내 연락드려요</p>
+    </div>
+  </form>
+</div>
+<button type="button" class="q-fab" id="qFab">⚡ 무료체험 신청</button>
+
+</body>
+</html>
