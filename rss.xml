@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 01 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>상모중학교 국어과외, 매체 자료 비판적으로 읽기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sangmo-ms-gugeo-maeche.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sangmo-ms-gugeo-maeche.html</guid>
+    <description>뉴스, 광고, 인터넷 글 같은 매체 자료를 읽고 정보의 신뢰성과 표현 의도를 판단하는 문제에서 막히는 상모중학교 학생을 위해 정리했어요.</description>
+    <pubDate>Fri, 02 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>사곡고등학교 영어과외, 순서 배열과 문장 삽입 풀이</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sagok-hs-yeongeo-sunseo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sagok-hs-yeongeo-sunseo.html</guid>
+    <description>모의고사 순서 배열과 문장 삽입 문제에서 감으로 풀다가 자주 틀리는 사곡고등학교 학생을 위해 단서를 찾는 풀이 순서를 정리했어요.</description>
+    <pubDate>Fri, 02 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미왕산초등학교 수학과외, 규칙 찾기와 대응 관계</title>
+    <link>https://gumi.slovrest.com/blog/gumi-wangsan-es-suhak-gyuchik.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-wangsan-es-suhak-gyuchik.html</guid>
+    <description>수와 도형의 배열에서 규칙을 찾지 못하고 대응 관계를 식으로 나타내는 데 막히는 구미왕산초등학교 학생을 위해 규칙 찾기를 정리했어요.</description>
+    <pubDate>Fri, 02 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미오산초등학교 영어과외, 영어 그림책으로 읽기 시작</title>
+    <link>https://gumi.slovrest.com/blog/gumi-osan-es-yeongeo-geurimchaek.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-osan-es-yeongeo-geurimchaek.html</guid>
+    <description>파닉스는 배웠는데 영어 문장 읽기를 어려워하는 구미오산초등학교 학생을 위해 영어 그림책으로 즐겁게 읽기를 시작하는 방법을 정리했어요.</description>
+    <pubDate>Fri, 02 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>봉곡중학교 수학과외, 피타고라스 정리 활용</title>
+    <link>https://gumi.slovrest.com/blog/gumi-bonggok-ms-suhak-pitagoraseu.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-bonggok-ms-suhak-pitagoraseu.html</guid>
+    <description>피타고라스 정리 공식은 아는데 어느 변이 빗변인지 헷갈리고 활용 문제에서 막히는 봉곡중학교 학생을 위해 정리했어요.</description>
+    <pubDate>Fri, 02 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>금오고등학교 수학과외, 삼각함수 개념과 그래프</title>
     <link>https://gumi.slovrest.com/blog/gumi-geumo-hs-suhak-samgakhamsu.html</link>
