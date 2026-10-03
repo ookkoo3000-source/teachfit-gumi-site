@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 02 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>구평초등학교 국어과외, 높임말 바르게 쓰기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-gupyeong-es-gugeo-nopimmal.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-gupyeong-es-gugeo-nopimmal.html</guid>
+    <description>웃어른께 말씀드릴 때 높임말을 어색하게 쓰거나 사물까지 높이는 실수를 하는 구평초등학교 학생을 위해 높임 표현을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미원당초등학교 수학과외, 다각형의 둘레와 넓이</title>
+    <link>https://gumi.slovrest.com/blog/gumi-wondang-es-suhak-dulle-neolbi.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-wondang-es-suhak-dulle-neolbi.html</guid>
+    <description>둘레와 넓이를 헷갈리고 평행사변형과 삼각형의 넓이 공식을 외우기만 하는 구미원당초등학교 학생을 위해 원리와 풀이법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>송정여자중학교 영어과외, 현재완료 시제 완벽 정리</title>
+    <link>https://gumi.slovrest.com/blog/gumi-songjeong-girls-ms-yeongeo-hyeonjae-wanryo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-songjeong-girls-ms-yeongeo-hyeonjae-wanryo.html</guid>
+    <description>현재완료와 과거 시제를 구분하지 못하고 have와 과거분사 형태에서 자주 실수하는 송정여자중학교 학생을 위해 현재완료를 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>상모고등학교 국어과외, 고전시가 해석과 감상 포인트</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sangmo-hs-gugeo-gojeon-siga.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sangmo-hs-gugeo-gojeon-siga.html</guid>
+    <description>고전시가의 옛말 해석이 어렵고 화자의 정서와 표현법 문제를 자주 틀리는 상모고등학교 학생을 위해 고전시가 공부법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>선산중학교 수학과외, 연립방정식 풀이와 활용 문제</title>
+    <link>https://gumi.slovrest.com/blog/gumi-seonsan-ms-suhak-yeollip-bangjeongsik.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-seonsan-ms-suhak-yeollip-bangjeongsik.html</guid>
+    <description>연립방정식에서 가감법과 대입법을 헷갈리고 활용 문제에서 식을 세우지 못하는 선산중학교 학생을 위해 풀이 순서를 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>상모중학교 국어과외, 매체 자료 비판적으로 읽기</title>
     <link>https://gumi.slovrest.com/blog/gumi-sangmo-ms-gugeo-maeche.html</link>
