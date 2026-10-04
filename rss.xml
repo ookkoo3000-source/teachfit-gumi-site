@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 03 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>인동중학교 국어과외, 토론 준비와 반론 펼치기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-indong-ms-gugeo-toron.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-indong-ms-gugeo-toron.html</guid>
+    <description>토론 수업에서 주장만 반복하고 근거를 제시하지 못하거나 상대의 의견에 반론하지 못하는 인동중학교 학생을 위해 토론 준비 방법을 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>금오초등학교 영어과외, 날씨와 계절 영어로 말하기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-geumo-es-yeongeo-nalssi-gyejeol.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-geumo-es-yeongeo-nalssi-gyejeol.html</guid>
+    <description>날씨 단어는 알지만 오늘 날씨를 묻고 답하거나 좋아하는 계절을 이유와 함께 말하지 못하는 금오초등학교 학생을 위해 표현과 연습법을 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구미초등학교 수학과외, 비와 비율 쉽게 이해하기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-es-suhak-bi-biyul.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-es-suhak-bi-biyul.html</guid>
+    <description>비의 기준량과 비교하는 양을 헷갈리고 비율을 백분율로 바꾸는 문제에서 자주 틀리는 구미초등학교 학생을 위해 비와 비율을 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>오상고등학교 영어과외, 주제·제목 찾기 유형 공략</title>
+    <link>https://gumi.slovrest.com/blog/gumi-osang-hs-yeongeo-juje-jemok.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-osang-hs-yeongeo-juje-jemok.html</guid>
+    <description>모의고사 주제와 제목 문제에서 세부 내용에 끌려 오답을 고르는 오상고등학교 학생을 위해 글의 요지를 빠르게 찾는 풀이법을 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>산동중학교 수학과외, 도형의 닮음과 닮음비</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sandong-ms-suhak-domyeong-dameum.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sandong-ms-suhak-domyeong-dameum.html</guid>
+    <description>닮은 도형에서 대응변을 잘못 짝짓고 넓이비와 부피비 문제에서 자주 틀리는 산동중학교 학생을 위해 도형의 닮음을 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>구평초등학교 국어과외, 높임말 바르게 쓰기</title>
     <link>https://gumi.slovrest.com/blog/gumi-gupyeong-es-gugeo-nopimmal.html</link>
