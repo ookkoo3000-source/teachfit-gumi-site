@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 05 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>형곡초등학교 영어과외, 장래희망 묻고 답하기 표현</title>
+    <link>https://gumi.slovrest.com/blog/gumi-hyeonggok-es-yeongeo-jangnae-huimang.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-hyeonggok-es-yeongeo-jangnae-huimang.html</guid>
+    <description>What do you want to be?에 직업 이름 하나로만 대답하고 a와 an, 직업 이름 철자, 이유 말하기에서 막히는 형곡초등학교 학생을 위해 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>옥계중학교 영어과외, 간접의문문 어순 실수 잡기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-okgye-ms-yeongeo-ganjeop-uimunmun.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-okgye-ms-yeongeo-ganjeop-uimunmun.html</guid>
+    <description>Do you know where is the station?처럼 간접의문문 어순을 틀리거나 의문사가 없을 때 if와 whether를 빠뜨리는 옥계중학교 학생을 위해 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>상모초등학교 수학과외, 소수의 나눗셈 소수점 옮기기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sangmo-es-suhak-sosu-nanutsem.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sangmo-es-suhak-sosu-nanutsem.html</guid>
+    <description>나누는 수의 소수점만 옮기고 나누어지는 수는 그대로 두거나 몫의 소수점을 엉뚱한 자리에 찍는 상모초등학교 학생을 위해 소수의 나눗셈을 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>인동고등학교 국어과외, 고전시가 해석과 갈래별 정리</title>
+    <link>https://gumi.slovrest.com/blog/gumi-indong-hs-gugeo-gojeon-siga.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-indong-hs-gugeo-gojeon-siga.html</guid>
+    <description>옛말 때문에 고전시가를 읽기 전부터 겁먹고 화자의 정서와 갈래별 특징을 정리하지 못하는 인동고등학교 학생을 위해 고전시가 공부법을 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>오태중학교 수학과외, 제곱근과 실수 기초 다지기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-otae-ms-suhak-jegopgeun.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-otae-ms-suhak-jegopgeun.html</guid>
+    <description>제곱근과 루트를 헷갈리거나 √(-3)²을 -3이라고 쓰고 근호 계산에서 실수하는 오태중학교 학생을 위해 제곱근과 실수 단원을 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>오상중학교 국어과외, 시의 운율과 표현법 감상</title>
     <link>https://gumi.slovrest.com/blog/gumi-osang-ms-gugeo-si-pyohyeon.html</link>
