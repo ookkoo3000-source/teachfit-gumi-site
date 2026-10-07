@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 06 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>현일고등학교 수학과외, 합성함수와 역함수 정리</title>
+    <link>https://gumi.slovrest.com/blog/gumi-hyeonil-hs-suhak-hapseong-hamsu.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-hyeonil-hs-suhak-hapseong-hamsu.html</guid>
+    <description>합성함수의 계산 순서를 거꾸로 하거나 역함수가 존재할 조건, 역함수 구하는 과정과 그래프의 대칭을 헷갈리는 현일고등학교 학생을 위해 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>송정초등학교 국어과외, 겪은 일 일기로 쓰기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-songjeong-es-gugeo-ilgi.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-songjeong-es-gugeo-ilgi.html</guid>
+    <description>일기를 쓰라고 하면 날마다 같은 내용만 쓰거나 한 일만 나열하고 생각과 느낌을 쓰지 못하는 송정초등학교 학생을 위해 일기 쓰는 방법을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>도량초등학교 수학과외, 들이와 무게 단위 바꾸기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-doryang-es-suhak-deuri-mugae.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-doryang-es-suhak-deuri-mugae.html</guid>
+    <description>L와 mL, kg과 g 사이의 단위를 바꿀 때 0을 빠뜨리거나 들이와 무게의 덧셈과 뺄셈에서 받아올림 기준을 헷갈리는 도량초등학교 학생을 위해 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>선산고등학교 영어과외, 문장 삽입 문제 단서 찾기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-seonsan-hs-yeongeo-munjang-sabip.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-seonsan-hs-yeongeo-munjang-sabip.html</guid>
+    <description>주어진 문장이 들어갈 위치를 감으로 고르다 틀리고 지시어, 연결어, 대명사 단서를 활용하지 못하는 선산고등학교 학생을 위해 문장 삽입 풀이법을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>해마루중학교 국어과외, 비유 표현 종류와 효과 정리</title>
+    <link>https://gumi.slovrest.com/blog/gumi-haemaru-ms-gugeo-biyu.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-haemaru-ms-gugeo-biyu.html</guid>
+    <description>직유와 은유, 의인과 활유를 헷갈리고 비유의 원관념과 보조관념, 표현 효과를 서술형으로 설명하지 못하는 해마루중학교 학생을 위해 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>형곡초등학교 영어과외, 장래희망 묻고 답하기 표현</title>
     <link>https://gumi.slovrest.com/blog/gumi-hyeonggok-es-yeongeo-jangnae-huimang.html</link>
