@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 07 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>산동초등학교 국어과외, 글 다듬기와 고쳐 쓰기 방법</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sandong-es-gugeo-gochyeo-sseugi.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sandong-es-gugeo-gochyeo-sseugi.html</guid>
+    <description>글을 다 쓰면 다시 읽지 않고 내거나 고쳐 쓰기를 맞춤법 확인으로만 생각하는 산동초등학교 학생을 위해 글 전체와 문단, 문장을 고쳐 쓰는 방법을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>도봉초등학교 영어과외, 좋아하는 과목과 시간표 말하기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-dobong-es-yeongeo-gwamok.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-dobong-es-yeongeo-gwamok.html</guid>
+    <description>What's your favorite subject?에 대답은 하지만 과목 이름 철자를 틀리거나 요일과 함께 시간표를 말하지 못하는 도봉초등학교 학생을 위해 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>금오공업고등학교 국어과외, 실용문과 안내문 정확히 읽기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-geumo-tech-hs-gugeo-silyongmun.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-geumo-tech-hs-gugeo-silyongmun.html</guid>
+    <description>안내문과 설명서, 공문 같은 실용문을 읽고 핵심 정보를 빠르게 찾지 못하거나 조건을 놓쳐 틀리는 금오공업고등학교 학생을 위해 실용문 읽기를 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>천생중학교 영어과외, 접속사 when because if that</title>
+    <link>https://gumi.slovrest.com/blog/gumi-cheonsaeng-ms-yeongeo-jeopsoksa.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-cheonsaeng-ms-yeongeo-jeopsoksa.html</guid>
+    <description>because와 so를 바꾸어 쓰거나 if절에 미래 시제를 쓰고 명사절 that과 부사절을 구분하지 못하는 천생중학교 학생을 위해 접속사를 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>진평중학교 수학과외, 문자와 식 일차식 계산 실수</title>
+    <link>https://gumi.slovrest.com/blog/gumi-jinpyeong-ms-suhak-ilchasik.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-jinpyeong-ms-suhak-ilchasik.html</guid>
+    <description>곱셈 기호를 생략하는 규칙을 헷갈리고 동류항 정리와 괄호 앞 부호 처리에서 실수하는 진평중학교 학생을 위해 문자와 식, 일차식의 계산을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>현일고등학교 수학과외, 합성함수와 역함수 정리</title>
     <link>https://gumi.slovrest.com/blog/gumi-hyeonil-hs-suhak-hapseong-hamsu.html</link>
