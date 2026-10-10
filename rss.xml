@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 08 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>도개고등학교 영어과외, 흐름과 무관한 문장 찾기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-dogae-hs-yeongeo-mugwan-munjang.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-dogae-hs-yeongeo-mugwan-munjang.html</guid>
+    <description>모의고사의 흐름과 무관한 문장 찾기에서 소재만 같으면 관련 있다고 판단해 틀리는 도개고등학교 학생을 위해 주제문을 기준으로 정답을 찾는 방법을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>현일중학교 국어과외, 보고서 쓰기 절차와 자료 활용</title>
+    <link>https://gumi.slovrest.com/blog/gumi-hyeonil-ms-gugeo-bogoseo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-hyeonil-ms-gugeo-bogoseo.html</guid>
+    <description>보고서 수행평가에서 인터넷 자료를 그대로 옮겨 쓰거나 결과와 의견을 구분하지 못해 감점되는 현일중학교 학생을 위해 보고서 쓰기 절차와 자료 활용법을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>구평남부초등학교 수학과외, 각도기로 각도 재기와 각의 합</title>
+    <link>https://gumi.slovrest.com/blog/gumi-gupyeongnambu-es-suhak-gakdo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-gupyeongnambu-es-suhak-gakdo.html</guid>
+    <description>각도기의 안쪽 눈금과 바깥쪽 눈금을 헷갈려 각도를 거꾸로 읽고 삼각형 세 각의 합을 활용하지 못하는 구평남부초등학교 학생을 위해 각도 단원을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>형남중학교 수학과외, 곱셈 공식 전개와 활용</title>
+    <link>https://gumi.slovrest.com/blog/gumi-hyeongnam-ms-suhak-gopsem-gongsik.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-hyeongnam-ms-suhak-gopsem-gongsik.html</guid>
+    <description>(a+b)²을 a²+b²으로 계산하거나 부호를 틀려 곱셈 공식 전개에서 실수하는 형남중학교 학생을 위해 곱셈 공식의 원리와 활용 방법을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>남계초등학교 영어과외, 동물 이름과 can 능력 표현</title>
+    <link>https://gumi.slovrest.com/blog/gumi-namgye-es-yeongeo-dongmul-can.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-namgye-es-yeongeo-dongmul-can.html</guid>
+    <description>Can you swim? 질문에 대답하는 방법이 헷갈리고 can 다음에 동사에 s를 붙이는 실수를 하는 남계초등학교 학생을 위해 동물 낱말과 can 표현을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>산동초등학교 국어과외, 글 다듬기와 고쳐 쓰기 방법</title>
     <link>https://gumi.slovrest.com/blog/gumi-sandong-es-gugeo-gochyeo-sseugi.html</link>
