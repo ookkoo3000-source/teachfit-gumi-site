@@ -6,9 +6,44 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 10 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>선주고등학교 영어과외, 문맥상 어휘 추론과 어휘 적절성</title>
+    <link>https://gumi.slovrest.com/blog/gumi-seonju-hs-yeongeo-eohwi-churon.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-seonju-hs-yeongeo-eohwi-churon.html</guid>
+    <description>모의고사 어휘 문제에서 단어 뜻은 알지만 문맥에 맞는지 판단하지 못하고 반의어 함정에 빠지는 선주고등학교 학생을 위해 문맥으로 어휘를 판단하는 방법을 정리했어요.</description>
+    <pubDate>Tue, 13 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>옥계동부중학교 수학과외, 확률의 뜻과 계산</title>
+    <link>https://gumi.slovrest.com/blog/gumi-okgyedongbu-ms-suhak-hwangnyul.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-okgyedongbu-ms-suhak-hwangnyul.html</guid>
+    <description>경우의 수를 빠뜨리거나 중복해서 세어 확률을 틀리고 확률의 덧셈과 곱셈을 언제 쓰는지 헷갈리는 옥계동부중학교 학생을 위해 확률의 뜻과 계산 방법을 정리했어요.</description>
+    <pubDate>Tue, 13 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>해평중학교 국어과외, 시의 화자와 정서 파악하기</title>
+    <link>https://gumi.slovrest.com/blog/gumi-haepyeong-ms-gugeo-si-hwaja-jeongseo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-haepyeong-ms-gugeo-si-hwaja-jeongseo.html</guid>
+    <description>시를 읽고 시인과 화자를 같은 사람으로 생각하거나 화자의 정서와 태도를 묻는 문제에서 근거를 찾지 못하는 해평중학교 학생을 위해 화자와 정서 파악 방법을 정리했어요.</description>
+    <pubDate>Tue, 13 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>덕촌초등학교 수학과외, 삼각형 분류 이등변 정삼각형 예각 둔각</title>
+    <link>https://gumi.slovrest.com/blog/gumi-deokchon-es-suhak-samgakhyeong-bunryu.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-deokchon-es-suhak-samgakhyeong-bunryu.html</guid>
+    <description>이등변삼각형과 정삼각형의 관계를 헷갈리고 예각삼각형과 둔각삼각형을 각의 크기로 정확히 분류하지 못하는 덕촌초등학교 학생을 위해 삼각형의 분류 기준과 성질을 정리했어요.</description>
+    <pubDate>Tue, 13 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>도개초등학교 영어과외, 옷과 색깔 묘사하는 영어</title>
+    <link>https://gumi.slovrest.com/blog/gumi-dogae-es-yeongeo-ot-saekkal.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-dogae-es-yeongeo-ot-saekkal.html</guid>
+    <description>옷 이름과 색깔을 함께 말할 때 순서를 바꾸거나 pants와 shoes 같은 복수 명사에 is를 쓰는 도개초등학교 학생을 위해 옷과 색깔을 묘사하는 영어 표현을 정리했어요.</description>
+    <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>도개고등학교 영어과외, 흐름과 무관한 문장 찾기</title>
     <link>https://gumi.slovrest.com/blog/gumi-dogae-hs-yeongeo-mugwan-munjang.html</link>
