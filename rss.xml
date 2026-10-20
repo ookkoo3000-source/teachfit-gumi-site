@@ -6,9 +6,16 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>수학 공식은 외웠는데 응용문제를 못 풀 때, 무엇부터 바꿔야 할까요</title>
+    <link>https://gumi.slovrest.com/blog/gumi-gongsik-eungyongmunje-mot-puneun-iyu.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-gongsik-eungyongmunje-mot-puneun-iyu.html</guid>
+    <description>공식은 외웠는데 응용문제만 나오면 손을 못 대는 건, 공식이 '언제 쓰이는지'를 연결하지 못해서인 경우가 많아요. 문제에서 조건을 찾고 식으로 바꾸는 연습 순서를 학습 예시와 함께 정리했어요.</description>
+    <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>수능 성적표 읽는 법, 표준점수·백분위·등급은 각각 무엇인가요</title>
     <link>https://gumi.slovrest.com/blog/gumi-suneung-seongjeokpyo-ilkneun-beop.html</link>
