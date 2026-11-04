@@ -6,9 +6,16 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>구미신평중학교 3학년, 고1 첫 학력평가 전에 알아둘 것</title>
+    <link>https://gumi.slovrest.com/blog/gumi-sinpyeong-ms-go1-3wol-hangnyeokpyeongga.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-sinpyeong-ms-go1-3wol-hangnyeokpyeongga.html</guid>
+    <description>고등학교 1학년이 처음 보는 3월 전국연합학력평가는 중학교 교육과정 전체에서 출제되는 시험이에요. 구미신평중학교 3학년 학생이 겨울방학에 중학교 내용을 어떻게 정리하면 좋은지, 시험 형식과 준비 순서를 정리했어요.</description>
+    <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>초등 수학 단원평가, 익힘책으로 준비하는 순서</title>
     <link>https://gumi.slovrest.com/blog/gumi-chodeung-suhak-danwonpyeongga-junbi.html</link>
