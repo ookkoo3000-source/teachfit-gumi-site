@@ -6,9 +6,16 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 16 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>형남초등학교 학부모님이 묻는 사회·과학 교과서 용어가 어려운 아이</title>
+    <link>https://gumi.slovrest.com/blog/gumi-hyeongnam-es-sahoe-gwahak-gyogwaseo-yongeo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-hyeongnam-es-sahoe-gwahak-gyogwaseo-yongeo.html</guid>
+    <description>초등 고학년이 되면 사회·과학 교과서에 처음 보는 용어가 많아져 내용을 따라가기 어려워하는 아이가 있어요. 형남초등학교 학생처럼 교과서 용어 때문에 막히는 아이가 용어를 정리하고 익히는 방법을 정리했어요.</description>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>구미여자고등학교 1학년, 겨울방학 영어는 무엇부터 할까요</title>
     <link>https://gumi.slovrest.com/blog/gumi-girls-hs-go1-gyeoul-yeongeo.html</link>
