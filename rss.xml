@@ -6,9 +6,16 @@
   <description>구미 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://gumi.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>구미여자고등학교 1학년, 겨울방학 영어는 무엇부터 할까요</title>
+    <link>https://gumi.slovrest.com/blog/gumi-girls-hs-go1-gyeoul-yeongeo.html</link>
+    <guid>https://gumi.slovrest.com/blog/gumi-girls-hs-go1-gyeoul-yeongeo.html</guid>
+    <description>고1 겨울방학 영어는 1학년 내신·모의고사에서 점수를 잃은 원인을 먼저 찾고, 어휘·구문·독해 중 약한 쪽을 집중해서 채우는 순서가 좋아요. 구미여자고등학교 1학년이 영역별로 점검할 것과 방학 계획을 정리했어요.</description>
+    <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>구미산동고등학교 2학년, 고3 올라가기 전 겨울방학 수능 준비</title>
     <link>https://gumi.slovrest.com/blog/gumi-sandong-hs-yebi-go3-gyeoul-suneung.html</link>
